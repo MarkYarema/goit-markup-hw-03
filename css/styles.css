@@ -73,10 +73,6 @@ p {
   display: flex;
 }
 
-.nav-info-list {
-  margin-left: auto;
-}
-
 .nav-list li:not(:last-child) {
   margin-right: 50px;
 }
@@ -110,6 +106,7 @@ p {
 
 .nav-info-list {
   display: flex;
+  margin-left: auto;
 }
 
 .nav-info-list li:not(:last-child) {
