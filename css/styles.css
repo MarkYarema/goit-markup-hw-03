@@ -39,6 +39,8 @@ p {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .link:hover,
@@ -123,7 +125,6 @@ p {
 .hero {
   background-color: var(--primary-background-color);
   text-align: center;
-  margin-bottom: 94px;
   padding: 200px 0px;
 }
 
@@ -168,7 +169,8 @@ p {
 /* Specialty */
 
 .specialty {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .specialty-list {
@@ -203,7 +205,7 @@ p {
 /* What do we do? */
 
 .draft {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .section-title {
@@ -301,8 +303,8 @@ p {
 /* PORTFOLIO */
 
 .main-section {
-  margin-bottom: 94px;
-  margin-top: 94px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .btn-list {
