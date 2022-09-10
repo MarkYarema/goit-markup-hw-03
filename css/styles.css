@@ -56,10 +56,11 @@ p {
 
 .main-header {
   background-color: var(--primary-link-color);
-  border: 1px solid var(--border-color);
-  border-top: transparent;
+  border-bottom: 1px solid var(--border-color);
+
+  /* border-top: transparent;
   border-left: transparent;
-  border-right: transparent;
+  border-right: transparent; */
 }
 
 .header-nav {
