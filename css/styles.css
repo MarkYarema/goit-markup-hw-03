@@ -235,7 +235,7 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .team-list {
@@ -250,7 +250,15 @@ p {
 }
 .infolist {
   background-color: var(--primary-link-color);
+}
+
+.infolist:not(:last-child) {
   margin-right: 30px;
+}
+
+.border-team {
+  border: 1px solid var(--border-color);
+  border-top: none;
 }
 
 /* footer */
