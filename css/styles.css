@@ -67,11 +67,14 @@ p {
 .nav-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .nav-list {
   display: flex;
+}
+
+.nav-info-list {
+  margin-left: auto;
 }
 
 .nav-list li:not(:last-child) {
@@ -253,6 +256,9 @@ p {
 }
 .infolist {
   background-color: var(--primary-link-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .infolist:not(:last-child) {
@@ -311,6 +317,7 @@ p {
 .btn-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .btn-list li:not(:last-child) {
@@ -327,7 +334,6 @@ p {
   border: none;
   cursor: pointer;
   padding: 6px 22px;
-  margin-bottom: 56px;
   border-radius: 4px;
 }
 
@@ -365,9 +371,6 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
   text-decoration: none;
-  padding-top: 20px;
-  margin-bottom: 4px;
-  padding-left: 24px;
 }
 .portfolio-info-list a {
   text-decoration: none;
@@ -377,12 +380,10 @@ p {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.9;
-  padding-left: 24px;
-  padding-bottom: 20px;
 }
 
 .border-title {
   border: 1px solid var(--border-color);
   border-top: none;
-  margin-bottom: 20px;
+  padding: 20px 24px;
 }
